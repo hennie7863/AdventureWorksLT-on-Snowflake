@@ -1,5 +1,5 @@
 
-DROP TABLE IF EXISTS SalesLT.SalesOrderHeader;
+--DROP TABLE IF EXISTS SalesLT.SalesOrderHeader;
 
 CREATE TABLE IF NOT EXISTS SalesLT.SalesOrderHeader(
 	SalesOrderID int NULL,
@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS SalesLT.SalesOrderHeader(
 	SubTotal  NUMBER(10,2) NOT NULL,
 	TaxAmt  NUMBER(10,2) NOT NULL,
 	Freight  NUMBER(10,2) NOT NULL,
-	TotalDue  NUMBER(10,2) NULL,
+	TotalDue  NUMBER(10,2) NULL,		--also not in the INSERT
 	Comment string NULL,
 	rowguid  nvarchar(50) NOT NULL,
 	ModifiedDate datetime NOT NULL

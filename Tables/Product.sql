@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS SalesLT.Product;
+--DROP TABLE IF EXISTS SalesLT.Product;
 
 CREATE TABLE IF NOT EXISTS SalesLT.Product (
 	ProductID int NOT NULL,

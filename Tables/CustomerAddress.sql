@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS SalesLT.CustomerAddress;
+--DROP TABLE IF EXISTS SalesLT.CustomerAddress;
 
 CREATE TABLE IF NOT EXISTS SalesLT.CustomerAddress(
 	CustomerID int NOT NULL,
